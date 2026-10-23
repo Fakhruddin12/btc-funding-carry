@@ -1,0 +1,11 @@
+{
+  "sofr_url": "https://markets.newyorkfed.org/api/rates/secured/sofr/search.json?startDate=2021-12-01&endDate=2026-01-01",
+  "sofr_sha256": "5c03b6960ac8cbe156eff5ddc7be503df51b5bfb1523ca1929759820f716b54d",
+  "warmup": {
+    "kind": "spot",
+    "month": "2021-12",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1h/BTCUSDT-1h-2021-12.zip",
+    "sha256": "b01133a69b22aa7904742a06a892ff3811152377f61e23977051a937afe2fbaa",
+    "bytes": 43757
+  }
+}

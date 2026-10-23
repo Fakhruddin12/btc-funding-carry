@@ -1,0 +1,60 @@
+{
+  "scope": "2022-2024 exploratory monthly price-proxy test, 1 BTC each leg; no fitted signal",
+  "months": 36,
+  "positive_months": 26,
+  "negative_months": 10,
+  "worst_month_return": -0.00239190128818894,
+  "best_month_return": 0.015290015269107643,
+  "margin_proxy_breaches": 0,
+  "median_cost_fraction_spot": 0.0038547700823128674,
+  "audit": {
+    "official_daily_mark_repairs": [
+      {
+        "date": "2022-07-31",
+        "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2022-07-31.zip",
+        "sha256": "584162b049132f77de5e27af98e48c36d5df159cea10bba8aac4925d5a715d52",
+        "bytes": 920,
+        "restored_hours": 24
+      },
+      {
+        "date": "2022-10-02",
+        "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2022-10-02.zip",
+        "sha256": "e7126ba8c0cf0be7fac7072aeb7bfdade421d69ebb92ab966aa69b61be1350c8",
+        "bytes": 1040,
+        "restored_hours": 24
+      },
+      {
+        "date": "2023-02-24",
+        "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2023-02-24.zip",
+        "sha256": "63c0acc05aa90e702975a9a3b3f23612267c2ad5d9328a11c5e96f222d9b541c",
+        "bytes": 1030,
+        "restored_hours": 24
+      }
+    ],
+    "spot": {
+      "missing_hours": 1,
+      "missing_timestamps": [
+        "2023-03-24 13:00:00+00:00"
+      ],
+      "nonpositive_prices": 0
+    },
+    "perp": {
+      "missing_hours": 0,
+      "missing_timestamps": [],
+      "nonpositive_prices": 0
+    },
+    "mark": {
+      "missing_hours": 0,
+      "missing_timestamps": [],
+      "nonpositive_prices": 0
+    },
+    "funding": {
+      "expected_payments": 3289,
+      "missing_payments": 0,
+      "max_settlement_timestamp_offset_seconds": 0.031,
+      "interval_hours": [
+        8
+      ]
+    }
+  }
+}

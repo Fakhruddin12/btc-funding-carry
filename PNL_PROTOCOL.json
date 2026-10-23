@@ -1,0 +1,27 @@
+{
+  "recorded_utc": "2026-10-16T15:33:10.833199+00:00",
+  "validation_start": "2025-02-01T01:00:00Z",
+  "validation_end": "2026-01-01T01:00:00Z",
+  "initial_capital_usdt": 10000,
+  "entry_signal": "Unconditional equal BTC long spot / short linear perpetual",
+  "sizing": "Monthly at first-day 01:00 UTC, target 50% spot plus collateral; floor to 0.001 BTC; initial and terminal trades included",
+  "costs": {
+    "spot_fee": 0.001,
+    "perp_fee": 0.0005,
+    "slippage_each_leg": 0.0002,
+    "stress_multiplier": 2
+  },
+  "margin": {
+    "initial_equity_requirement_fraction": 0.5,
+    "maintenance_stress_fraction": 0.01,
+    "adverse_mark": "hourly high; debit negative intra-hour funding; do not credit positive funding early"
+  },
+  "cash_interest": 0,
+  "capital_hurdle_scenario": 0.05,
+  "source_sha256": {
+    "pnl.py": "ccab25c547dd4d151e04a854c938da811f5ce1df3838545bbefa4d5ea9b8a5b4",
+    "study.py": "27050844c1df4f1f09f7325431b936e3bef9714b9659cfed013fa6dcf001999a",
+    "test_pnl.py": "9efea810b8dfb3a62ec236f8016b88d0cf04a61b5a0be91bb6cde996413dd2c9"
+  },
+  "scope": "Ledger refinement before accessing new 2025-02 onward files. No signal fitting. Not a fully executable order-book backtest. January 2025 previously downloaded and excluded."
+}

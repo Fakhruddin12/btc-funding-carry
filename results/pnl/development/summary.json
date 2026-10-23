@@ -1,0 +1,79 @@
+{
+  "start": "2022-01-01",
+  "end": "2025-01-01",
+  "repairs": [
+    {
+      "date": "2022-07-31",
+      "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2022-07-31.zip",
+      "sha256": "584162b049132f77de5e27af98e48c36d5df159cea10bba8aac4925d5a715d52",
+      "bytes": 920,
+      "restored_hours": 24
+    },
+    {
+      "date": "2022-10-02",
+      "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2022-10-02.zip",
+      "sha256": "e7126ba8c0cf0be7fac7072aeb7bfdade421d69ebb92ab966aa69b61be1350c8",
+      "bytes": 1040,
+      "restored_hours": 24
+    },
+    {
+      "date": "2023-02-24",
+      "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2023-02-24.zip",
+      "sha256": "63c0acc05aa90e702975a9a3b3f23612267c2ad5d9328a11c5e96f222d9b541c",
+      "bytes": 1030,
+      "restored_hours": 24
+    }
+  ],
+  "scenarios": {
+    "1": {
+      "initial_capital": 10000,
+      "final_equity": 11283.111425906654,
+      "net_pnl": 1283.1114259066544,
+      "total_return": 0.12831114259066534,
+      "cagr": 0.041051719840913936,
+      "funding": 1356.3177603106576,
+      "basis_pnl": -5.99733999996003,
+      "spot_fees": 35.37403678,
+      "perp_fees": 17.685821620000002,
+      "spot_slippage": 7.074807356000003,
+      "perp_slippage": 7.074328648000002,
+      "max_daily_drawdown": -0.0017593613781028417,
+      "worst_daily_pnl": -13.88660637798057,
+      "best_daily_pnl": 15.255828344386828,
+      "positive_daily_observations": 851,
+      "daily_observations": 1098,
+      "stale_spot_hour_count": 1,
+      "funding_receipts_included": true,
+      "minimum_cash": 1317.5456237752412,
+      "minimum_margin_stress_buffer": 2632.30992943307,
+      "maximum_maintenance_utilization": 0.0295823685478356,
+      "cash_hurdle_terminal": 11576.636595871974,
+      "rebalance_events": 36
+    },
+    "2": {
+      "initial_capital": 10000,
+      "final_equity": 11208.297787406991,
+      "net_pnl": 1208.2977874069911,
+      "total_return": 0.12082977874069911,
+      "cagr": 0.03874621336663586,
+      "funding": 1347.313892979009,
+      "basis_pnl": -5.956000000022167,
+      "spot_fees": 70.03333252,
+      "perp_fees": 35.014361820000005,
+      "spot_slippage": 14.006666504000004,
+      "perp_slippage": 14.005744728000003,
+      "max_daily_drawdown": -0.0018793242015999745,
+      "worst_daily_pnl": -19.273126941125156,
+      "best_daily_pnl": 15.062716593192818,
+      "positive_daily_observations": 845,
+      "daily_observations": 1098,
+      "stale_spot_hour_count": 1,
+      "funding_receipts_included": true,
+      "minimum_cash": 1292.6329111402467,
+      "minimum_margin_stress_buffer": 2589.9566469924043,
+      "maximum_maintenance_utilization": 0.030051588163586,
+      "cash_hurdle_terminal": 11576.636595871974,
+      "rebalance_events": 36
+    }
+  }
+}
