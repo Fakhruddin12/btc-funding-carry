@@ -1,0 +1,50 @@
+{
+  "created_utc": "2026-10-25T10:00:10.479600+00:00",
+  "status": "Pre-result declaration for new dated inverse-futures extension; earlier ETF and perpetual results already observed. Historical research, not a preregistered external experiment.",
+  "question": "Does contractual basis convergence, coin collateral matching and a cash/cost hurdle improve implementable relative-value returns without forecasting crypto direction?",
+  "universe": "All BTCUSD and ETHUSD quarterly expiries last Friday Mar/Jun/Sep/Dec, 2021Q1 through 2026Q2. No retrospective winners removed. BTC face100USD, ETH face10USD.",
+  "capital": 100000,
+  "allocation": "40% current NAV capital budget per asset; remaining20% and rejected slots earn cash proxy; no reallocation of rejected slot. One expiry per asset, no overlap.",
+  "entry": "Final24hour entry schedule per execution_amendment_before_first_simulation; original single-open concept retained in history.",
+  "exit": "Final24hour unwind ending expiry minus1hour; any remaining contracts invalidate run.",
+  "models": [
+    "always_on",
+    "cost_cash_gate"
+  ],
+  "gate": "Prior observed F/S-1 must exceed conservative four-leg base roundtrip cost 2*(12+7)bp plus cash return for actual holding days plus2%annual risk buffer. F and S from prior completed hour. No threshold optimisation.",
+  "coin_replication": "Short n integer dollar-face contracts C; buy net q=C/Fentry underlying as coin margin after paying entry futures coin fee. Wallet mark equity = q+C*(1/Fmark-1/Fentry)=C/Fmark before later fees. No directional rebalancing.",
+  "costs": "Base spot12bp,futures7bp, each one-way, conservative all-in fee/slippage equivalents charged explicitly. Entry futures coin fee is topped up through spot purchase, so matched wallet remains C/Fentry. Exit coin fee=C/Fexit*7bp; sell resulting entire coin wallet with spot12bp. Stress20/12 and30/20bp; unchanged gate.",
+  "execution": "At1000000capital, each leg order <=1% prior24h mean hourly notional volume; inverse volume contracts times face. Spot+futures open assumed simultaneous with costs; missing orderbook/asynchronous-leg risk explicit.",
+  "valuation": "Hourly cash + coin margin equity valued at contemporaneous spot; inverse mark for unrealised PnL. Missing raw mark bars investigated; flagged forward-basis proxies for valuation only, never fills. Unavailable spot open follows existing executable flag.",
+  "risk": "Hourly mark-high/spot stress; equity_coin/(C/Fmark) margin ratio. Guard10%; any breach invalidates liquidation-safe claim. No leverage scaling to boost numbers.",
+  "periods": {
+    "development": "2021-2022",
+    "later_evaluation": "2023-2026-06-26"
+  },
+  "inference": "Quarterly episode/annual regime returns and block uncertainty; standard daily Sharpe not sufficient for convergence carry. Cash benchmark must be included.",
+  "selection": "Both fixed strategies reported. No choosing best horizon, asset, expiry, threshold or period after seeing results. Performance of existing strategies may motivate this branch but is not independent confirmation.",
+  "limits": "Single exchange, coin custody and default risk; USDT spot/USD futures parity assumption; no tax or transfers; no orderbook. Default and stablecoin haircuts separate from observed-return statistics.",
+  "execution_amendment_before_first_simulation": {
+    "utc": "2026-10-25T10:03:40.157356+00:00",
+    "reason": "Observed archive contract volumes make a single400k open needlessly capacity constrained. No strategy PnL has yet been run or inspected. Use a declared24hour schedule rather than assume unlimited single-bar liquidity.",
+    "entry": "Decision at expiry minus60days08UTC using07UTC completed close. Spread40%NAV budget per asset over24hourly opens09UTC through next08UTC. No favourable intrabar fills; each slice capped at1%previous24h mean hourly notional. Unfilled budget remains cash.",
+    "exit": "24hour scheduled unwind from expiry minus24hours through expiry minus1hour. Each hour target ceil(remaining_contracts/hours_remaining), capped by prior-hour known participation limit. Any unclosed contracts at last scheduled hour invalidate the run.",
+    "coins": "Spot quantities rounded up to conservative0.001coin on entry; integer inverse contracts. Exit spot sales rounded down to0.001; coin dust retained and marked, never written off or credited as cash.",
+    "gate": "Original gate fixed at initial prior-hour basis and cash/cost hurdle. No reselection during execution window."
+  },
+  "capacity_amendment_before_first_completed_result": {
+    "utc": "2026-10-25T10:07:37.841904+00:00",
+    "original_capital": 1000000,
+    "reason": "First1M simulation aborted in development before any completed PnL table: ETH Dec2022 left9contracts(90USDface) at scheduled unwind under1%participation. Retain failure as capacity finding. Use100k proof-of-concept book; no thresholds, dates or asset choices changed. Later performance has not yet been evaluated.",
+    "claim_limit": "No claim of1M capacity.100k run must still pass every exit and liquidity check."
+  },
+  "cash_proxy_revision": {
+    "utc": "2026-10-25T10:15:22.426413+00:00",
+    "reason": "Daily FamaFrenchRF rounded0.01percentagepoint creates coarse252xannual yield steps. Replace cash proxy uniformly with official NYFedSOFR, seven calendar-day information lag and25bp cash management spread (floor0), actual360 converted to365 equivalent. No asset, forecast, thresholds or model reselection. All strategies and stress cases rerun.",
+    "status": "Sensitivity/accounting refinement after historical results were seen. Later evaluation remains retrospective, not pristine unseen test.",
+    "source_url": "https://markets.newyorkfed.org/api/rates/secured/sofr/search.json?startDate=2019-12-01&endDate=2026-08-31",
+    "sha256": "d64c8e73f59446c1df057b27bebc2b93856e114eb5a1b7a2b5aeb18fcb9a8c4b"
+  },
+  "cash_proxy": "NYFedSOFR minus25bp, floor0, available7calendar days after effective date; ACT360 accrual. Off-exchange free cash only, same proxy as benchmark; reserved margin no interest. Assumed cash-investment return, not actual fund total return.",
+  "missing_print_signal_guard": "Flagged spot valuation proxies cannot create daily entry decisions. Funding forecast training features require a fully observed169-hour price window; proxy-based price features are excluded. Applied uniformly after preliminary results, without parameter or asset selection."
+}

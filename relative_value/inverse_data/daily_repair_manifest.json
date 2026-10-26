@@ -1,0 +1,82 @@
+[
+  {
+    "url": "https://data.binance.vision/data/futures/cm/daily/klines/BTCUSD_230929/1h/BTCUSD_230929-1h-2023-08-28.zip",
+    "sha256": "bc2eee5d0017e34508ac84f5858e7a967ecd392949a8d07f666db08821853493",
+    "bytes": 1290
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/cm/daily/klines/BTCUSD_230929/1h/BTCUSD_230929-1h-2023-08-29.zip",
+    "sha256": "efcee7549420d4bc965c4bd8f823f7510e0e32b259faba9163ef81e59cf3da2a",
+    "bytes": 1321
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/cm/daily/klines/BTCUSD_230929/1h/BTCUSD_230929-1h-2023-08-30.zip",
+    "sha256": "eabd924db918c96a6f265dfc67686a257a0e35dbcd2e3dfb83d46c08c3fae3de",
+    "bytes": 1321
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/cm/daily/klines/BTCUSD_230929/1h/BTCUSD_230929-1h-2023-08-31.zip",
+    "sha256": "5faee53f4522396006aeef3f8c802ad994ed713686d1d798d1cd8763213b07f4",
+    "bytes": 1323
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/cm/daily/markPriceKlines/BTCUSD_230929/1h/BTCUSD_230929-1h-2023-08-28.zip",
+    "sha256": "109be9fd930b60f85ce89a1e887b3f7d164237c66fb29d525781b5a2b81f66a7",
+    "bytes": 1164
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/cm/daily/markPriceKlines/BTCUSD_230929/1h/BTCUSD_230929-1h-2023-08-29.zip",
+    "sha256": "8e20f394006facdc892ed63d1d57da1ef1186f5061555d02145691fb5ad7f0cc",
+    "bytes": 1198
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/cm/daily/markPriceKlines/BTCUSD_230929/1h/BTCUSD_230929-1h-2023-08-30.zip",
+    "sha256": "717671c380887a0228c9e5b0b4182473ec915da1eccdb8eae21b5ad3a2a66c57",
+    "bytes": 1183
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/cm/daily/markPriceKlines/BTCUSD_230929/1h/BTCUSD_230929-1h-2023-08-31.zip",
+    "sha256": "bd0a1a24dd1ae30f8d635a38cef26af58471c10579ac32b706ad16926eb49283",
+    "bytes": 1178
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/cm/daily/klines/ETHUSD_230929/1h/ETHUSD_230929-1h-2023-08-28.zip",
+    "sha256": "39501f56fa12047bd68a1720a745239b868fe8629976bc1545d856ca111190a9",
+    "bytes": 1338
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/cm/daily/klines/ETHUSD_230929/1h/ETHUSD_230929-1h-2023-08-29.zip",
+    "sha256": "c8813b49e822facacff0a68807b2f55eb3d8558aaaf444230b02883439633f02",
+    "bytes": 1365
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/cm/daily/klines/ETHUSD_230929/1h/ETHUSD_230929-1h-2023-08-30.zip",
+    "sha256": "286f5d1fc9c51a431a57c2642e48290fc9dbcd34b1bcf28ca3457b87096f18bf",
+    "bytes": 1349
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/cm/daily/klines/ETHUSD_230929/1h/ETHUSD_230929-1h-2023-08-31.zip",
+    "sha256": "e4393c1048c8e624f8518ef405fa0c8bff642a7b8c0b8153c7071c41896990e8",
+    "bytes": 1343
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/cm/daily/markPriceKlines/ETHUSD_230929/1h/ETHUSD_230929-1h-2023-08-28.zip",
+    "sha256": "8c71992e3eff7e034dbdd8954a8f78a58a37acdb0f7f48baeedd512b8186397d",
+    "bytes": 1084
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/cm/daily/markPriceKlines/ETHUSD_230929/1h/ETHUSD_230929-1h-2023-08-29.zip",
+    "sha256": "4065dceeca8724af9ac18670debedebd86914116e317eb54af481ffce31c12fd",
+    "bytes": 1108
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/cm/daily/markPriceKlines/ETHUSD_230929/1h/ETHUSD_230929-1h-2023-08-30.zip",
+    "sha256": "3c6a1db39d21a9382b1f68d34da31f1f2f19e87b795e72ca9b19f1f87b2292df",
+    "bytes": 1095
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/cm/daily/markPriceKlines/ETHUSD_230929/1h/ETHUSD_230929-1h-2023-08-31.zip",
+    "sha256": "035f2fe5628d48b3e5252ab31d7d20f7dfdceaef4e530184acb0983d1db6f056",
+    "bytes": 1088
+  }
+]

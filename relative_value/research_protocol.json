@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-10-25T04:10:58.668839+00:00",
+  "hypothesis": "Trade transient relative-price dislocations while allowing a permanent component of the spread; require model-implied convergence to exceed transaction and carrying costs.",
+  "universe": "16 fixed ETF pairs (32 tickers) chosen by related economic exposure, not ranked on returns; data/universe.json. Surviving, currently available fund sample, not a complete point-in-time ETF universe.",
+  "data": "Yahoo daily split-adjusted OHLCV, adjusted close for signals, split-adjusted distributions for portfolio cash flows; source payloads and checksums retained. No bid-ask/locate data.",
+  "periods": {
+    "fit_history": "504 prior sessions, minimum400",
+    "development": "2012-2018",
+    "validation": "2019-2021",
+    "locked_evaluation": "2022-2026-09-30, not inspected until implementation and rules frozen"
+  },
+  "refits": "Quarterly; hedge ratio, OU and partial-cointegration parameters estimated using only previous504 sessions; causal Kalman filtering within each quarter.",
+  "models": [
+    "rolling OLS residual z-score baseline",
+    "OU expected-convergence cost gate",
+    "partial-cointegration transient-state cost gate"
+  ],
+  "hedge": "OLS log adjusted-close beta, [.5,2]; no name overlaps between predefined pairs; split-adjusted units fixed between entry and exit",
+  "common_rules": {
+    "entry_z": 2.0,
+    "exit_z": 0.5,
+    "stop_z": 4.0,
+    "max_holding_sessions": 40,
+    "max_pair_loss": 0.05,
+    "forecast_horizon": 20,
+    "minimum_train_return_correlation": 0.8,
+    "minimum_train_median_dollar_volume": 5000000,
+    "minimum_half_life": 1,
+    "maximum_half_life": 60,
+    "portfolio_pair_slots": 16,
+    "capital": 1000000,
+    "maximum_order_share_of_prior20day_dollar_volume": 0.01
+  },
+  "cost_gate": "Expected log-spread convergence divided by (1+beta) >1.5*(20bp round-trip + expected1% short borrow + risk-free opportunity cost on long leg over20 sessions); direction-aware leg costs. Baseline has no expected-edge gate.",
+  "PCI": "Residual=M+R, M is stationary AR1, R is a random walk; Gaussian state-space MLE with two initial seeds. Fixed formation OLS hedge ratio; not a literal replication of joint-estimation partialCI. Require converged optimisation and daily-innovation MR variance fraction >=.5.",
+  "execution": "Close-t signals execute open-t+1. Portfolio daily mark-to-market, distributions on ex-date as receivables; no same-close fills. Scheduled quarter-end liquidation at last open. Full daily/trade/parameter logs.",
+  "cost_scenarios": "5/10/20bp each one-way dollar traded, base borrow1%/yr and stress3%/5%; cost gate remains fixed at10bp scenario. Free unencumbered cash earns Fama-French RF; short collateral earns no rebate; no leverage.",
+  "selection": "No hyperparameter search on locked evaluation. Compare all predeclared models; report failure and no-trade outcomes. Any later revisions must be labelled exploratory.",
+  "reporting": "Gross/net excess Sharpe, CAGR, drawdown, turnover, holding times, trades, exposure, yearly and pair contribution, block-bootstrap uncertainty, factor exposures and cost sensitivity; separate measured performance from implementation assumptions.",
+  "PCI_uncertainty_margin": "Subtract one posterior standard deviation of the transient state from its absolute magnitude before evaluating expected convergence. This excludes parameter uncertainty and is not labelled a confidence guarantee."
+}

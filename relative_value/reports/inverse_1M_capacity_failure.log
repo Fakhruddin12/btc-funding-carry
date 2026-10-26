@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/8c2390302ef2/pairs_research_v2/inverse.py", line 190, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/8c2390302ef2/pairs_research_v2/inverse.py", line 177, in main
+    ledger,orders,episodes,invalid=run(spots,frames,model,'2021-01-01',end,sb,fb)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/8c2390302ef2/pairs_research_v2/inverse.py", line 149, in run
+    raise ValueError(invalid[-1])
+ValueError: {'symbol': 'ETHUSD_221230', 'reason': 'liquidity prevented scheduled close', 'contracts': 9}

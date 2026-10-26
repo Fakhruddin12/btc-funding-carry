@@ -1,0 +1,299 @@
+{
+  "daily_sources": [
+    {
+      "symbol": "BTCUSDT",
+      "kind": "spot",
+      "day": "2020-02-09",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1h/BTCUSDT-1h-2020-02-09.zip",
+      "sha256": "0ae79fca77a635369288b6c589d0097b77a74e45e2440c87931a4f2cae16971d"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "kind": "spot",
+      "day": "2020-02-19",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1h/BTCUSDT-1h-2020-02-19.zip",
+      "sha256": "824adb3d90ea4478df83a7d09932b20cdc48ea829be227a76702b4cf4d980b3d"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "kind": "spot",
+      "day": "2020-03-04",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1h/BTCUSDT-1h-2020-03-04.zip",
+      "sha256": "b42a2d7a4cfa5f8da948025f53bd6dd73e3fd4cbc6a48bf779cd6c96df3c467c"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "kind": "spot",
+      "day": "2020-04-25",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1h/BTCUSDT-1h-2020-04-25.zip",
+      "sha256": "58075f3ba86294a86b21697defd06a5d44dff804da751add620996cb88fb536e"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "kind": "spot",
+      "day": "2020-06-28",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1h/BTCUSDT-1h-2020-06-28.zip",
+      "sha256": "a5f5b4ace7ba83cc914436ccc3b3ccc687f8e7eae842e36c9edb7aa602b7aed3"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "kind": "spot",
+      "day": "2020-11-30",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1h/BTCUSDT-1h-2020-11-30.zip",
+      "sha256": "0d173152b2838c38712b0b101a94106e9688b9ba5ae97b5f639bf2e73def35fb"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "kind": "spot",
+      "day": "2020-12-21",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1h/BTCUSDT-1h-2020-12-21.zip",
+      "sha256": "d508784b81a53648ea482e4625a1d9ddb9ca839ee73248c416b1934b3948827e"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "kind": "spot",
+      "day": "2020-12-25",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1h/BTCUSDT-1h-2020-12-25.zip",
+      "sha256": "2dabcc8a38e26958a19667fc15019d236b999a314605e6eb41c99ed9e54e11cc"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "kind": "spot",
+      "day": "2021-02-11",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1h/BTCUSDT-1h-2021-02-11.zip",
+      "sha256": "951079a2c9f0ce16b0b6b4411529db6e45f7973585fe98b72ed39810ebe1449a"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "kind": "spot",
+      "day": "2021-03-06",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1h/BTCUSDT-1h-2021-03-06.zip",
+      "sha256": "a85039f9b0c7285354770cd85b0a58ebc4fbb7b56d599e94e2d8cd80f46f96ee"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "kind": "spot",
+      "day": "2021-04-20",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1h/BTCUSDT-1h-2021-04-20.zip",
+      "sha256": "c8d5b18b256df13d20b6520a23b7858a8eef1de376c99747eeb49fd3e0391eeb"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "kind": "spot",
+      "day": "2021-04-25",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1h/BTCUSDT-1h-2021-04-25.zip",
+      "sha256": "f084c398523cc0d82538865d4a4d5a3be25aa80dcce5a538585c5369824cdafc"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "kind": "spot",
+      "day": "2021-08-13",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1h/BTCUSDT-1h-2021-08-13.zip",
+      "sha256": "4008bd522671e86df59f6e4dc563946b7c89063718a826f82f9c64ab86bce30c"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "kind": "spot",
+      "day": "2021-09-29",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1h/BTCUSDT-1h-2021-09-29.zip",
+      "sha256": "f57acec9a851361ee99e241de0db2445d097879c8e9ff21971ebbe5e1ab3fb80"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "kind": "spot",
+      "day": "2023-03-24",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1h/BTCUSDT-1h-2023-03-24.zip",
+      "sha256": "ea9d94f28a39ad8029c9c2863cbb7769137188edd957fea35d0313ae4183561f"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "kind": "mark",
+      "day": "2021-07-01",
+      "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2021-07-01.zip",
+      "sha256": "231ed215935a1fc3a6da4d070403a25db75338ed61c45ef082343aac2b214aef"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "kind": "mark",
+      "day": "2021-07-24",
+      "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2021-07-24.zip",
+      "sha256": "920e7592ea11fe2bd5d2fba9fc76cb955a40eccdf74c25e25ee8f92b3eedcfc7"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "kind": "mark",
+      "day": "2021-07-25",
+      "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2021-07-25.zip",
+      "sha256": "a0bc1410fd38b9e75b98647de17787ee089baa5786d0fd6be79752356c5991fc"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "kind": "mark",
+      "day": "2021-07-26",
+      "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2021-07-26.zip",
+      "sha256": "b4e9e023889d89b63824774f8589e5139872341e05a0e6dc81f35f4d5688de94"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "kind": "mark",
+      "day": "2021-07-27",
+      "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2021-07-27.zip",
+      "sha256": "b95041bc59b91bcb82ca3b3c70d3b8ffea99d3aae5ced415876dc20e1695d4ce"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "kind": "mark",
+      "day": "2022-07-31",
+      "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2022-07-31.zip",
+      "sha256": "584162b049132f77de5e27af98e48c36d5df159cea10bba8aac4925d5a715d52"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "kind": "mark",
+      "day": "2022-10-02",
+      "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2022-10-02.zip",
+      "sha256": "e7126ba8c0cf0be7fac7072aeb7bfdade421d69ebb92ab966aa69b61be1350c8"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "kind": "mark",
+      "day": "2023-02-24",
+      "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2023-02-24.zip",
+      "sha256": "63c0acc05aa90e702975a9a3b3f23612267c2ad5d9328a11c5e96f222d9b541c"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "kind": "mark",
+      "day": "2026-06-29",
+      "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2026-06-29.zip",
+      "sha256": "122fd96f8693a9794e2dbdb4491858078676045170acce68046e32f32f7b4068"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "kind": "spot",
+      "day": "2020-02-09",
+      "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDT/1h/ETHUSDT-1h-2020-02-09.zip",
+      "sha256": "02d670705fcac1689a5bc784003f20ae629902783adc682d382a5fe4e97c21b0"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "kind": "spot",
+      "day": "2020-02-19",
+      "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDT/1h/ETHUSDT-1h-2020-02-19.zip",
+      "sha256": "a07b8dec3632c3e7ea5ff7dac48f12b3638283f3ee34564870fe9fb07830c7ad"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "kind": "spot",
+      "day": "2020-03-04",
+      "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDT/1h/ETHUSDT-1h-2020-03-04.zip",
+      "sha256": "19b5f8b32c4664cc3f5600a3390b047488e316a3898a35739d7b1657a553dd7d"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "kind": "spot",
+      "day": "2020-04-25",
+      "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDT/1h/ETHUSDT-1h-2020-04-25.zip",
+      "sha256": "f5f4fb6e3cbcbd15ec8a5c3ba1116482a58c17b05e332b4cac8b15330d19c8d0"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "kind": "spot",
+      "day": "2020-06-28",
+      "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDT/1h/ETHUSDT-1h-2020-06-28.zip",
+      "sha256": "df4b39a2cc91cfb4ad1040b8875ed943971093d9eee0f7cab615f9fe952e66be"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "kind": "spot",
+      "day": "2020-11-30",
+      "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDT/1h/ETHUSDT-1h-2020-11-30.zip",
+      "sha256": "305d51854828ef12ec6143e2b0e193c1dc17745a27bb0816919c6e59b985a1c9"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "kind": "spot",
+      "day": "2020-12-21",
+      "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDT/1h/ETHUSDT-1h-2020-12-21.zip",
+      "sha256": "1861baf64d3678293f7d6c5ca4b2cb3444d439dcf80cbb7fe2da0f6c87a07878"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "kind": "spot",
+      "day": "2020-12-25",
+      "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDT/1h/ETHUSDT-1h-2020-12-25.zip",
+      "sha256": "68b57906d9977cf7cdd420e1813918295a8d526bdf39299a9d729de9706113c6"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "kind": "spot",
+      "day": "2021-02-11",
+      "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDT/1h/ETHUSDT-1h-2021-02-11.zip",
+      "sha256": "f27d5d4a2af7149a77689e69fe2905cb6d9eefb4e8b3d390558f4b8dc825e734"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "kind": "spot",
+      "day": "2021-03-06",
+      "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDT/1h/ETHUSDT-1h-2021-03-06.zip",
+      "sha256": "d80d3d5fc9e4b6b102a0d95955672f18737a9f0d032e57f99413615daa294c50"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "kind": "spot",
+      "day": "2021-04-20",
+      "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDT/1h/ETHUSDT-1h-2021-04-20.zip",
+      "sha256": "61b1ea57906dc9aacddf7fd790f3550f6bb226d1ac72093398667941d3c38ad4"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "kind": "spot",
+      "day": "2021-04-25",
+      "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDT/1h/ETHUSDT-1h-2021-04-25.zip",
+      "sha256": "e516945eccba21b90c4d97ea2a580c65551e2d4c378f5313e569babb7a7815d4"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "kind": "spot",
+      "day": "2021-08-13",
+      "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDT/1h/ETHUSDT-1h-2021-08-13.zip",
+      "sha256": "fd21c14c628ae95fcca06f493da507a796ba216a4f1f4468077d23161f2b3901"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "kind": "spot",
+      "day": "2021-09-29",
+      "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDT/1h/ETHUSDT-1h-2021-09-29.zip",
+      "sha256": "a9f1eb29c0d710997ddeccb461293fc1c395d349901fcee1322aaeb4965b1232"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "kind": "spot",
+      "day": "2023-03-24",
+      "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDT/1h/ETHUSDT-1h-2023-03-24.zip",
+      "sha256": "7b9d19487c37b354003717872987ae5ecb2178b4ff0de1ecdd5a5c84da2f10b1"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "kind": "mark",
+      "day": "2022-10-02",
+      "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/ETHUSDT/1h/ETHUSDT-1h-2022-10-02.zip",
+      "sha256": "94d0e57c728f658c7f14d3cae57184037b6229faa76325c9ae38c79cba25c3de"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "kind": "mark",
+      "day": "2023-02-24",
+      "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/ETHUSDT/1h/ETHUSDT-1h-2023-02-24.zip",
+      "sha256": "4a48e5821dd7d2926286de92fa98103840cdd71179632cfd0130b3102c40cc3f"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "kind": "mark",
+      "day": "2026-06-29",
+      "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/ETHUSDT/1h/ETHUSDT-1h-2026-06-29.zip",
+      "sha256": "29ef5b9ab185b18c7bcb73fd7ba12d14ebcef404367c886ad13705592ef99c20"
+    }
+  ],
+  "notes": "Daily archive observations fill missing monthly records. Where no spot print exists, prior observed spot/mark ratio times current mark values existing inventory; those hours cannot execute. The unavailable composite-index archive was not substituted as observed data."
+}

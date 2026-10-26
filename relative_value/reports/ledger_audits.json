@@ -1,0 +1,131 @@
+[
+  {
+    "file": "crypto_locked_always_on_cost12_7_hourly.csv",
+    "rows": 32136,
+    "nav_identity_max_error": 5.238689482212067e-10,
+    "minimum_cash": 507037.92238919134,
+    "fee_reconciliation_error": -1.8189894035458565e-12,
+    "margin_stress_hours": 0,
+    "peak_exchange_inventory_and_collateral": 1256445.604701791
+  },
+  {
+    "file": "crypto_locked_always_on_cost20_12_hourly.csv",
+    "rows": 32136,
+    "nav_identity_max_error": 5.020410753786564e-10,
+    "minimum_cash": 504229.27516353567,
+    "fee_reconciliation_error": 0.0,
+    "margin_stress_hours": 0,
+    "peak_exchange_inventory_and_collateral": 1254000.0469052526
+  },
+  {
+    "file": "crypto_locked_always_on_cost30_20_hourly.csv",
+    "rows": 32136,
+    "nav_identity_max_error": 5.165929906070232e-10,
+    "minimum_cash": 500092.3603225548,
+    "fee_reconciliation_error": 0.0,
+    "margin_stress_hours": 0,
+    "peak_exchange_inventory_and_collateral": 1250679.8479135728
+  },
+  {
+    "file": "crypto_locked_ewma_gate_cost12_7_hourly.csv",
+    "rows": 32136,
+    "nav_identity_max_error": 4.802132025361061e-10,
+    "minimum_cash": 624659.8135753939,
+    "fee_reconciliation_error": 0.0,
+    "margin_stress_hours": 0,
+    "peak_exchange_inventory_and_collateral": 1017165.5510053139
+  },
+  {
+    "file": "crypto_locked_ewma_gate_cost20_12_hourly.csv",
+    "rows": 32136,
+    "nav_identity_max_error": 5.238689482212067e-10,
+    "minimum_cash": 624208.1972483225,
+    "fee_reconciliation_error": 0.0,
+    "margin_stress_hours": 0,
+    "peak_exchange_inventory_and_collateral": 1016680.1385420668
+  },
+  {
+    "file": "crypto_locked_ewma_gate_cost30_20_hourly.csv",
+    "rows": 32136,
+    "nav_identity_max_error": 5.129550117999315e-10,
+    "minimum_cash": 623605.7957271565,
+    "fee_reconciliation_error": 0.0,
+    "margin_stress_hours": 0,
+    "peak_exchange_inventory_and_collateral": 1015888.8466592814
+  },
+  {
+    "file": "crypto_locked_ridge_gate_cost12_7_hourly.csv",
+    "rows": 32136,
+    "nav_identity_max_error": 5.475158104673028e-10,
+    "minimum_cash": 600194.876449429,
+    "fee_reconciliation_error": 0.0,
+    "margin_stress_hours": 0,
+    "peak_exchange_inventory_and_collateral": 1034725.61925556
+  },
+  {
+    "file": "crypto_locked_ridge_gate_cost20_12_hourly.csv",
+    "rows": 32136,
+    "nav_identity_max_error": 4.765752237290144e-10,
+    "minimum_cash": 599673.9578740178,
+    "fee_reconciliation_error": 0.0,
+    "margin_stress_hours": 0,
+    "peak_exchange_inventory_and_collateral": 1028900.7383270361
+  },
+  {
+    "file": "crypto_locked_ridge_gate_cost30_20_hourly.csv",
+    "rows": 32136,
+    "nav_identity_max_error": 4.765752237290144e-10,
+    "minimum_cash": 598952.6647074219,
+    "fee_reconciliation_error": 0.0,
+    "margin_stress_hours": 0,
+    "peak_exchange_inventory_and_collateral": 1020944.4275762374
+  },
+  {
+    "file": "inverse_always_on_cost12_7_hourly.csv",
+    "rows": 48056,
+    "nav_identity_max_error": 4.3655745685100555e-11,
+    "minimum_cash": 20052.237692024,
+    "fee_reconciliation_error": 0.0,
+    "margin_stress_hours": 0
+  },
+  {
+    "file": "inverse_always_on_cost20_12_hourly.csv",
+    "rows": 48056,
+    "nav_identity_max_error": 4.3655745685100555e-11,
+    "minimum_cash": 20017.28749726002,
+    "fee_reconciliation_error": -1.8189894035458565e-12,
+    "margin_stress_hours": 0
+  },
+  {
+    "file": "inverse_always_on_cost30_20_hourly.csv",
+    "rows": 48056,
+    "nav_identity_max_error": 4.3655745685100555e-11,
+    "minimum_cash": 20068.738284519983,
+    "fee_reconciliation_error": 3.637978807091713e-12,
+    "margin_stress_hours": 0
+  },
+  {
+    "file": "inverse_cost_cash_gate_cost12_7_hourly.csv",
+    "rows": 48056,
+    "nav_identity_max_error": 4.3655745685100555e-11,
+    "minimum_cash": 20052.237692024,
+    "fee_reconciliation_error": 0.0,
+    "margin_stress_hours": 0
+  },
+  {
+    "file": "inverse_cost_cash_gate_cost20_12_hourly.csv",
+    "rows": 48056,
+    "nav_identity_max_error": 4.3655745685100555e-11,
+    "minimum_cash": 20017.28749726002,
+    "fee_reconciliation_error": 0.0,
+    "margin_stress_hours": 0
+  },
+  {
+    "file": "inverse_cost_cash_gate_cost30_20_hourly.csv",
+    "rows": 48056,
+    "nav_identity_max_error": 4.3655745685100555e-11,
+    "minimum_cash": 20068.738284519983,
+    "fee_reconciliation_error": 0.0,
+    "margin_stress_hours": 0
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "created_utc": "2026-10-25T04:26:28.915596+00:00",
+  "hypothesis": "Can causal funding forecasts and cost-aware entry/exit hysteresis improve spot-perpetual cash-and-carry excess returns versus always-on hedged carry?",
+  "universe": [
+    "BTCUSDT",
+    "ETHUSDT"
+  ],
+  "capital": 1000000,
+  "data": "Official Binance monthly 1h spot, perpetual execution and mark-price klines plus actual funding events; Jan2020-Aug2026. Spot archive changes ms to us in2025 handled explicitly.",
+  "periods": {
+    "formation": "2020 onward; ML quarterly trailing730days, minimum300 labelled observations pooled across two assets",
+    "development": "2021",
+    "validation": "2022",
+    "locked_evaluation": "2023-2026-08-31"
+  },
+  "position": "Buy spot and short exactly the same underlying quantity in linear USDT perpetuals. Target20% NAV spot notional per asset, plus fully reserved futures collateral; gross intended <=80% NAV across both pairs. Weekly delta-quantity rebalancing, not full turnover. An hourly observed gross exposure above95% NAV schedules a resize at the following open.",
+  "models": [
+    "always_on",
+    "ewma_gate",
+    "ridge_gate"
+  ],
+  "forecast": "Next30calendar-day annualised sum of funding. EWMA uses conservative min7day,30day past annualised funding. Ridge(alpha=10) uses current rate,7/30day averages, prior-hour basis, lagged1/7day returns and7day volatility; scaler fit only on training; labels ending >=fit cutoff are purged.",
+  "entry": "30day predicted funding + current basis >roundtrip fees + 2*cash opportunity rate*30/365 +2% annual risk buffer*30/365; basis>-25bp. Forecast rate clipped[-100%,100%] annually. No short-spot/reverse carry.",
+  "exit": "Forecast falls below2*cash rate-1% for3daily decisions, or basis<-1%, or margin safety rule. No hold-period tuning. Forecast/gates frozen before validation.",
+  "execution": "Decisions00UTC using completed prior-hour bars and funding known at least1hour earlier. Orders execute01UTC. Funding applied to positions held before event, with actual rate and contemporaneous mark. Millisecond jitter mapped to scheduled funding hour; rate not available to trade at that event.",
+  "costs": "Base spot12bps (10fee+2slippage), futures7bps (5fee+2slippage), each one-way notional; stress20/12 and30/20bps. No fee discounts/rebates. Charge all resizing and closure legs. Cost stresses keep the entry gate at base12/7bps; stress changes charged costs, not the decision thresholds.",
+  "cash": "NYFedSOFR minus25bp, floor0, available7calendar days after effective date; ACT360 accrual. Off-exchange free cash only, same proxy as benchmark; reserved margin no interest. Assumed cash-investment return, not actual fund total return.",
+  "risk": "Assess hourly mark-high collateral stress; minimum cash/short-notional stress ratio10%. Any possible breach invalidates a liquidation-safe claim. No favourable intrabar fills. Actual order-book spreads, outages, transfer delays and ADL unavailable.",
+  "selection": "No selecting asset/universe/parameters based on locked returns; choose adaptive model only from2022 validation, and report all3 in later comparison. If validation offers no supported improvement, retain always-on benchmark and say so.",
+  "report": "Annual returns/excess Sharpe, drawdowns, PnL decomposition funding/basis/cash/fees, turnover, calendar regimes, crisis periods, exposure, margin stress, cost stress, leave-one-asset-out and block bootstrap.",
+  "data_quality": "Official daily archives recover missing monthly mark bars. There are31 unavailable spot-print hours per asset across2020-Aug2026. Those hours use an explicitly flagged prior spot/mark ratio times current mark solely for inventory valuation, and cannot execute. A composite-index archive was unavailable. Proxy sensitivity must be reported.",
+  "cost_gate_stress": "Decision gate stays at base12/7bp costs in all stress runs.",
+  "collateral_accounting_correction": {
+    "utc": "2026-10-25T04:51:52.335664+00:00",
+    "reason": "Pre-lock accounting audit: one-times margin equity requires reserving additional physical cash for unrealised short losses. Those losses cannot be left in interest-earning bank cash.",
+    "implementation": "At inventory changes, posted reserve = current short notional + negative unrealised PnL; top up at daily decisions; no interest on posted reserves. Assert that cash funds all reserves. Positive unrealised PnL is never credited as interest-earning cash."
+  },
+  "cash_realisation": "If a large spot decline leaves offsetting futures profits unrealised and cash insufficient to fund the declared collateral/spot resize, realise futures gains through a close/reopen at the execution price, charging both futures-leg fees. No free credit of unrealised gains.",
+  "cash_proxy_revision": {
+    "utc": "2026-10-25T10:15:22.426413+00:00",
+    "reason": "Daily FamaFrenchRF rounded0.01percentagepoint creates coarse252xannual yield steps. Replace cash proxy uniformly with official NYFedSOFR, seven calendar-day information lag and25bp cash management spread (floor0), actual360 converted to365 equivalent. No asset, forecast, thresholds or model reselection. All strategies and stress cases rerun.",
+    "status": "Sensitivity/accounting refinement after historical results were seen. Later evaluation remains retrospective, not pristine unseen test.",
+    "source_url": "https://markets.newyorkfed.org/api/rates/secured/sofr/search.json?startDate=2019-12-01&endDate=2026-08-31",
+    "sha256": "d64c8e73f59446c1df057b27bebc2b93856e114eb5a1b7a2b5aeb18fcb9a8c4b"
+  },
+  "cash_proxy": "NYFedSOFR minus25bp, floor0, available7calendar days after effective date; ACT360 accrual. Off-exchange free cash only, same proxy as benchmark; reserved margin no interest. Assumed cash-investment return, not actual fund total return.",
+  "missing_print_signal_guard": "Flagged spot valuation proxies cannot create daily entry decisions. Funding forecast training features require a fully observed169-hour price window; proxy-based price features are excluded. Applied uniformly after preliminary results, without parameter or asset selection."
+}

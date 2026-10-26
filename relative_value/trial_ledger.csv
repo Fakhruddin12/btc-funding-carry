@@ -1,0 +1,12 @@
+branch,design,outcome,selection_status
+Original NSE notebook,"Full-sample clustering/tests, same-period winner selection",Invalid for performance inference,Unverified old CV claims retired
+NSE chronological clustering pilot,Training-only PCA/DBSCAN and costs,"Sparse, weak signals",Conditional frozen-universe pilot
+NSE sector-neighbour extension,Exploratory screen added after sparse clustering,Some positive conditional results,No point-in-time universe or borrow availability; not executable claim
+ETF statistical convergence,Rolling spread / OU / partial cointegration,All failed 2019-2021 validation at base costs,Later ETF strategy test left unopened
+Linear perpetual carry,Always-on / EWMA / Ridge; original validation chose EWMA,Retain all candidates and stress cases,No later winner reselection
+Execution/accounting audit,"Physical collateral, futures realisation, integer-lot exits",Earlier affected numbers superseded,Preliminary later outcomes had been seen
+Dated inverse carry at1M,"44 scheduled contracts, fixed horizon/TWAP/capacity",Development unwind failed by9ETHcontracts,Retained capacity failure; no completed1M performance claim
+Dated inverse carry at100k,Same dates/thresholds/participation; smaller capital,Supported prototype,Changed before first completed dated performance table; later results unseen then
+Cash benchmark refinement,Rounded dailyRF replaced by7daylaggedSOFRminus25bp,Uniform rerun; original funding model retained,After preliminary later outcomes; retrospective evaluation
+Missing-print signal guard,Proxies blocked from decisions;169hour observed feature window,Uniform quality correction,No threshold/asset/period reselection
+Asset removal and cost stress,Keep original slot sizes; never choose winning asset,Diagnostic only,Not a model-selection step

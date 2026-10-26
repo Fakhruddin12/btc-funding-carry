@@ -1,0 +1,1 @@
+Keep original per-asset allocation:20%spot+20%collateral for funding,40%cash budget for dated. Other slot stays cash. No reallocating to remaining asset or selecting winner from these results. Dated starts2021 to retain small physical coin dust; reported evaluation2023 onward. Funding starts flat2023 as primary.

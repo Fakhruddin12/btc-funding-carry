@@ -1,52 +1,32 @@
-# BTC Funding Carry: A Cash-Ledger Feasibility Study
-### Testing a simple market-neutral idea against costs and a cash benchmark
+# BTC/ETH Spot-Futures Trading Research
 
-## Included saved artifacts
+I tested whether buying spot BTC/ETH and shorting futures can earn enough to cover execution costs and the return available on cash. The latest study compares a fixed entry rule with taking every eligible trade.
 
-[market-data-snapshots.zip](market-data-snapshots.zip) contains 204 original saved files. Extract it at the repository root before using the archived arrays or data snapshots:
+**Main result:** the dated-futures backtest returned **19.35% after costs** over January 2023-June 2026, compared with **16.81%** without the entry filter. Annualised returns were **5.20% versus 4.55% for cash**, and trading costs were **67% lower**. Most of the total return came from cash interest. The excess return is modest and these are retrospective simulations.
 
-```bash
-python -m zipfile -e market-data-snapshots.zip .
-```
+[Latest research and reproduction steps](relative_value/) | [Full report](relative_value/deliverables/Quant_Relative_Value_Research.pdf) | [Result tables](relative_value/deliverables/Final_Results.csv) | [Tests](relative_value/tests/)
 
-Paths and SHA-256 hashes are recorded in [ARTIFACTS.json](ARTIFACTS.json). Source code, figures and result tables remain directly browsable.
+![Cumulative returns and drawdowns](relative_value/deliverables/cumulative_returns.png)
 
-**Question:** Does holding spot BTC against a short perpetual position earn an economically meaningful return after fees, slippage, rebalancing and collateral accounting?
+## What the project contains
 
-**Finding:** The simulated strategy made positive net P&L, but did **not** establish excess return over a historical SOFR cash-accrual proxy. The later 2025 period underperformed that proxy. This is a feasibility and accounting study, with no fitted entry signal.
+- An inverse-contract hedge with coin fees, integer contract sizes and retained coin dust.
+- Hourly execution with a 1% participation limit based on prior mean hourly volume.
+- A fixed entry rule that compares the futures premium with costs, cash returns and a risk buffer.
+- A comparison of 44 BTC/ETH quarterly contracts across the wider 2021Q1-2026Q2 research sample.
+- Funding-carry comparisons, cost stresses, block-bootstrap intervals and dependence-adjusted statistics.
+- 31 accounting, timing and implementation tests, plus saved ledger audits.
 
-| Result | 2022–2024 development | Feb–Dec 2025 later test |
-|---|---:|---:|
-| Starting capital | 10,000 USDT | 10,000 USDT |
-| Net P&L | 1,283.11 USDT | 195.70 USDT |
-| Net cumulative return | 12.83% | 1.96% |
-| Historical SOFR proxy return | 12.72% | 4.01% |
+The supported dated-futures prototype starts with USD 100,000. An earlier USD 1 million trial failed an unwind-capacity check and is retained as a failure case. Historical order-book depth, transfers and exchange default are outside this backtest.
 
-[**Full report**](output/pdf/Funding_carry_PnL_report.pdf) · [**Cash-ledger results**](results/pnl/) · [**Benchmark and statistical checks**](results/kpis/) · [**Methods**](docs/ORIGINAL_RESEARCH_NOTES.md)
+## Verify the results
 
-## Research contribution
+Start with [the evidence map](relative_value/RESULTS.md). It links the headline figures to saved tables, implementation files and test evidence.
 
-- Separate spot, perpetual, funding, fee, slippage and cash accounting.
-- Actual cash constraints, 0.001 BTC research lots and marked valuations.
-- A frozen protocol before the later sample, plus explicit reporting changes.
-- Cost stress tests and hourly drawdown measurement.
-- Dependence-aware moving-block bootstrap and cash-benchmark comparison.
-- Eleven accounting and statistical checks.
+The complete processed input snapshot is included as verified archive parts under `relative_value/inputs/`. Run `python extract_inputs.py` from `relative_value/` to reassemble and extract it before running the code. Source URLs and hashes are included. The research files do not place live orders or require exchange credentials.
 
-The two periods begin as separate accounts and finish with positions closed. The later period is not a continuation through January 2025. Large zero-cash Sharpe ratios are not headline evidence: the result changes substantially when assessed relative to the cash proxy.
+## Research history
 
-## Reproduce
+The [latest study](relative_value/) extends the earlier BTC-only funding feasibility study with BTC/ETH, entry filters, dated futures and more detailed accounting. The earlier files remain at the repository root. [The earlier README](docs/EARLIER_FUNDING_STUDY.md) describes those historical results. Use the files under `relative_value/` for the current results.
 
-```bash
-python -m pip install -r requirements.txt
-python -m unittest discover -s . -p "test_*.py" -v
-python study.py
-python continuous.py
-python pnl.py
-python pnl.py --validation
-python kpis.py
-```
-
-Public source archives and checksum manifests are retained for offline reproducibility. Hourly execution and mark proxies, assumed costs, USD/USDT parity, venue risk and stablecoin risk limit the conclusions. The SOFR accrual series is a retrospective benchmark, not an investable USDT deposit.
-
-**Author:** Fakhruddin Hakim Hussain · [Portfolio](https://github.com/Fakhruddin12)
+**Author:** Fakhruddin Hakim Hussain | [GitHub profile](https://github.com/Fakhruddin12)

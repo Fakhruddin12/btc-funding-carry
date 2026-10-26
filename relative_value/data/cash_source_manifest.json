@@ -1,0 +1,7 @@
+{
+  "utc": "2026-10-25T10:15:22.426413+00:00",
+  "reason": "Daily FamaFrenchRF rounded0.01percentagepoint creates coarse252xannual yield steps. Replace cash proxy uniformly with official NYFedSOFR, seven calendar-day information lag and25bp cash management spread (floor0), actual360 converted to365 equivalent. No asset, forecast, thresholds or model reselection. All strategies and stress cases rerun.",
+  "status": "Sensitivity/accounting refinement after historical results were seen. Later evaluation remains retrospective, not pristine unseen test.",
+  "source_url": "https://markets.newyorkfed.org/api/rates/secured/sofr/search.json?startDate=2019-12-01&endDate=2026-08-31",
+  "sha256": "d64c8e73f59446c1df057b27bebc2b93856e114eb5a1b7a2b5aeb18fcb9a8c4b"
+}

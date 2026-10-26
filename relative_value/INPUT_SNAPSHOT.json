@@ -1,0 +1,701 @@
+{
+  "archive": "research-inputs.zip",
+  "sha256": "988c3da60383c4dfc068796392d040be23cba081a964fe0dac16626d54087292",
+  "files": [
+    {
+      "path": "crypto_data/BTCUSDT_funding.csv",
+      "bytes": 294180,
+      "sha256": "70109dda2a5317e728e8f023478162f46e1495addcc961d4ee17bf7d37e90e3b"
+    },
+    {
+      "path": "crypto_data/BTCUSDT_mark.csv",
+      "bytes": 4672587,
+      "sha256": "82a5017e0c548f88b9f2664e4856a5290c55254032fca8c67a57fe48e2686ace"
+    },
+    {
+      "path": "crypto_data/BTCUSDT_perp.csv",
+      "bytes": 4886562,
+      "sha256": "1b4a4f4c056ed7fa854f561a02957c1337b3e4ea12c93772af11ed481397036e"
+    },
+    {
+      "path": "crypto_data/BTCUSDT_spot.csv",
+      "bytes": 5864057,
+      "sha256": "9e7da797b261f5a17319600c4638d350e85440582787a0a997e86bd2367ed692"
+    },
+    {
+      "path": "crypto_data/ETHUSDT_funding.csv",
+      "bytes": 294380,
+      "sha256": "8c578cb66c8e327480491594ebf21dd3edbfff17e537632f588ea8c18d766893"
+    },
+    {
+      "path": "crypto_data/ETHUSDT_mark.csv",
+      "bytes": 4495860,
+      "sha256": "58a52992d36e0d3340134f83a3d6bf3f10986be134d84a4f1aadcbf72eff1a59"
+    },
+    {
+      "path": "crypto_data/ETHUSDT_perp.csv",
+      "bytes": 4829822,
+      "sha256": "79bf45fc3099e494d8c3c4643728a9c3c659be80b3df9a8f846e0b2fdeadb3e4"
+    },
+    {
+      "path": "crypto_data/ETHUSDT_spot.csv",
+      "bytes": 5531978,
+      "sha256": "a8674d44699180e3884b59c5bcfe7d27433c64bb688b0ac141358a691387fddc"
+    },
+    {
+      "path": "crypto_data/manifest.json",
+      "bytes": 200202,
+      "sha256": "c966cda8d12690433e6f7023a3abc0e9c2acd6d60ad6e8faea5ce2505a6f505b"
+    },
+    {
+      "path": "crypto_data/repair_manifest.json",
+      "bytes": 12081,
+      "sha256": "7971f7103895503c209d7680248f377e90e4d05ac52cc10e48d034a44d3a729b"
+    },
+    {
+      "path": "data/GLD.csv",
+      "bytes": 508221,
+      "sha256": "ea35136d354a76f17b16782f32bb2050e2b28d5b8ba5e054f58e6b40daf9c7ac"
+    },
+    {
+      "path": "data/IAU.csv",
+      "bytes": 503811,
+      "sha256": "a1de6140dbee249dfe1cefd3b433077c2e6304bdbf70f4aea1949c0f98487538"
+    },
+    {
+      "path": "data/IEF.csv",
+      "bytes": 501439,
+      "sha256": "8587da9ecb2d6826fe8bedad1426e3d1f1999b1b3e9f774ddafc72dd5cd53bfb"
+    },
+    {
+      "path": "data/IJR.csv",
+      "bytes": 502561,
+      "sha256": "f23f5885916d1d8193bae9d50fe02218b207ca447a731399b1388eec925668df"
+    },
+    {
+      "path": "data/ITOT.csv",
+      "bytes": 497572,
+      "sha256": "707f8afd8d21e5a8ff9c61d53ce5088224ae673bc9bd99b31c63c4349ddce610"
+    },
+    {
+      "path": "data/IVV.csv",
+      "bytes": 501040,
+      "sha256": "c7af51986fe4e656acd6d755bd254786acab67dd868bd8247e859ea56c44aa9b"
+    },
+    {
+      "path": "data/IWM.csv",
+      "bytes": 509653,
+      "sha256": "39a0faa8058d02951c567763fefac7e26292bf26b92d69817aa7a4cb7b4e99e9"
+    },
+    {
+      "path": "data/IYR.csv",
+      "bytes": 496093,
+      "sha256": "93db9141b9559080639ee4cce23bfe478c5f58726784fcfebd14c1b22fb23c17"
+    },
+    {
+      "path": "data/SPY.csv",
+      "bytes": 507881,
+      "sha256": "a88c5703d2da962adf6d2f2df73619ee80432338a3d19f7219ebe9f56a534e3e"
+    },
+    {
+      "path": "data/TLT.csv",
+      "bytes": 506457,
+      "sha256": "4c3255bca645ae2e98732f8acfd14a97ba8e5f35a5515aeffa9ac065a2b2cd1f"
+    },
+    {
+      "path": "data/VAW.csv",
+      "bytes": 492935,
+      "sha256": "0b13bf6e09837374037fe6327013ee4f10b1f5c3522c5155244280b1bd2b5f84"
+    },
+    {
+      "path": "data/VCR.csv",
+      "bytes": 492798,
+      "sha256": "7e6dd36cc1cbd937fcf5ad6aa5f397a5c0814f715d1e38996a86c0377ad78cc5"
+    },
+    {
+      "path": "data/VDC.csv",
+      "bytes": 494430,
+      "sha256": "5be4036e5c06ff9371b9f2eb6a2bb02afdcfb76fdef85faf706d10559feb7410"
+    },
+    {
+      "path": "data/VDE.csv",
+      "bytes": 493423,
+      "sha256": "3cccd60c1515192deca468e01d844832c6f17f6881dc04eafad71e921f8066e8"
+    },
+    {
+      "path": "data/VFH.csv",
+      "bytes": 495318,
+      "sha256": "ff752dcf459cc49dca6226f3403a58062d9109e1f4323e32b458ed8d4f0df2f1"
+    },
+    {
+      "path": "data/VGIT.csv",
+      "bytes": 466667,
+      "sha256": "8490ae5c717da089e907b14af60082abbe8f509670cfb0f9f91d36199204bbb4"
+    },
+    {
+      "path": "data/VGLT.csv",
+      "bytes": 460001,
+      "sha256": "3ef82575a57fbf3459730603d561f43bf5872bbf30ae5b3ca4780fa3d7ff9666"
+    },
+    {
+      "path": "data/VGT.csv",
+      "bytes": 498810,
+      "sha256": "fec666ea67329fc72e7bc2be684183143e88d7723fe95e7afcb0870b70f335bb"
+    },
+    {
+      "path": "data/VHT.csv",
+      "bytes": 495219,
+      "sha256": "f9b59ae79d7c35b5caeaa7fd50b72d934aab758fd797c9d838df9f43dbd7bdaa"
+    },
+    {
+      "path": "data/VIS.csv",
+      "bytes": 494757,
+      "sha256": "6dcc6adb274833216afab38b760417c0753abb9d781d5f9cad8b6911ea921aff"
+    },
+    {
+      "path": "data/VNQ.csv",
+      "bytes": 494279,
+      "sha256": "26dfa380d0fbe19ae25e7ece33420b113b3f3727dd3bf07a28a7a438cb96ab7c"
+    },
+    {
+      "path": "data/VPU.csv",
+      "bytes": 493743,
+      "sha256": "c475f13c26641b0557be1f6081e321179341939a2dd695bb49c2bb2ec848b109"
+    },
+    {
+      "path": "data/VTI.csv",
+      "bytes": 501074,
+      "sha256": "6701be874ecfbf5b703ebd67b47b16fff7e54bf21607308a54456b776428a94d"
+    },
+    {
+      "path": "data/XLB.csv",
+      "bytes": 509924,
+      "sha256": "900b169d88c0c1a3d7af95d4b865ed6c50c0b7d08a7962442f8360790468b1f6"
+    },
+    {
+      "path": "data/XLE.csv",
+      "bytes": 508803,
+      "sha256": "bc99d41ed8373a2b575f5d24804b368b43a4972617ee18612f3d2e747270b40d"
+    },
+    {
+      "path": "data/XLF.csv",
+      "bytes": 515464,
+      "sha256": "aa1c06c3c389cda4afd2ff84e19484ec12c0da61c340ee2f9017327ddf7a9251"
+    },
+    {
+      "path": "data/XLI.csv",
+      "bytes": 504069,
+      "sha256": "cdfe427aa2ca7d4fd116b52506b7b55668763bfaa9d434a31a641f6545a47777"
+    },
+    {
+      "path": "data/XLK.csv",
+      "bytes": 508881,
+      "sha256": "3c0bfdccd9596bce0f6ecb0595e2cab0f2e544235e9ff130dd31ff02604844b7"
+    },
+    {
+      "path": "data/XLP.csv",
+      "bytes": 501634,
+      "sha256": "b86e671c1f8e5a74ec72a3d23d20e441eaa2d50c909d629e3618b6470eadef6f"
+    },
+    {
+      "path": "data/XLU.csv",
+      "bytes": 510512,
+      "sha256": "0738c3720b0780c4236a7622dff2abaa3624a0a5f3066636ef646f9c56c39f74"
+    },
+    {
+      "path": "data/XLV.csv",
+      "bytes": 504306,
+      "sha256": "e3683318f43d346a301d056f68c44ffa7fba8389a3172da3406f3c7b80ae3d7b"
+    },
+    {
+      "path": "data/XLY.csv",
+      "bytes": 505010,
+      "sha256": "cff9cd1080b455d59776bf240fc902498e9e6fdbefdbc55cd527da8f135cc616"
+    },
+    {
+      "path": "data/cash_SOFR.json",
+      "bytes": 400644,
+      "sha256": "d64c8e73f59446c1df057b27bebc2b93856e114eb5a1b7a2b5aeb18fcb9a8c4b"
+    },
+    {
+      "path": "data/cash_source_manifest.json",
+      "bytes": 762,
+      "sha256": "a1a70b0334b10e0213f1bae4c56451f249fb9efb54ab3dfa4725281a0082d284"
+    },
+    {
+      "path": "data/ff5.csv",
+      "bytes": 1017831,
+      "sha256": "323ee3426ffa429ea2e3dacaac85a581e3968d319817efe0b4614c5e5adfddc1"
+    },
+    {
+      "path": "data/manifest.json",
+      "bytes": 17427,
+      "sha256": "942abc8efa03da2ea650ecae78202fab811551badc8d3acf23eded344637d95f"
+    },
+    {
+      "path": "data/momentum.csv",
+      "bytes": 472762,
+      "sha256": "d4b3e98cb5afb1533af0d4568aa816de2aadac5bbff9a590c1c65e3392d7b05b"
+    },
+    {
+      "path": "data/universe.json",
+      "bytes": 828,
+      "sha256": "bef9e9abec1376f73a776332f01f77957de2f29e10ce278ae77a9d03a8014bfa"
+    },
+    {
+      "path": "inverse_data/BTCUSD_210326_klines.csv",
+      "bytes": 158478,
+      "sha256": "2e8ecbced4d2a124634c6dbb87d4723a56bcbfb8e143331e841226bbd46487c6"
+    },
+    {
+      "path": "inverse_data/BTCUSD_210326_markPriceKlines.csv",
+      "bytes": 193585,
+      "sha256": "8d184c998b5b75c9ed4a976b217ef621e6c296cf012c7bac8d261d30d1d8f667"
+    },
+    {
+      "path": "inverse_data/BTCUSD_210625_klines.csv",
+      "bytes": 160782,
+      "sha256": "b6d5dd579278ba46fe64a9654c8f1fc068b87c01a455417a5898e17b653d2a92"
+    },
+    {
+      "path": "inverse_data/BTCUSD_210625_markPriceKlines.csv",
+      "bytes": 195644,
+      "sha256": "b44e930359b0b39c4976c1929778cc7641e38e30d9a1d8392bf146d87a54b5cc"
+    },
+    {
+      "path": "inverse_data/BTCUSD_210924_klines.csv",
+      "bytes": 159467,
+      "sha256": "c43827a0352974b7e1a560b9da1c1d23b84aac03281750f6f042b7c693a7e3e1"
+    },
+    {
+      "path": "inverse_data/BTCUSD_210924_markPriceKlines.csv",
+      "bytes": 197877,
+      "sha256": "f4cdffdba20e0976450a204041122f12096a4803b4f4e6e94a7f7f433d51bf18"
+    },
+    {
+      "path": "inverse_data/BTCUSD_211231_klines.csv",
+      "bytes": 171250,
+      "sha256": "69572c1898caf3e973c87630faf8ee2a1d0b7ee7fa36a6c6718cc64ee74e9f57"
+    },
+    {
+      "path": "inverse_data/BTCUSD_211231_markPriceKlines.csv",
+      "bytes": 197673,
+      "sha256": "d587e1a39252d0050c4ba51fd6ff24445677fe14bedfe5a076aad5faffa80415"
+    },
+    {
+      "path": "inverse_data/BTCUSD_220325_klines.csv",
+      "bytes": 155494,
+      "sha256": "1dd45a28dd4fe8c97dc625cebeabaa1de52b872de099bec7f600d87a53359673"
+    },
+    {
+      "path": "inverse_data/BTCUSD_220325_markPriceKlines.csv",
+      "bytes": 193507,
+      "sha256": "0323d8e1b58f7f9012a941b946e2f037fd4dd9c27ef43154b416bda92f8ef5da"
+    },
+    {
+      "path": "inverse_data/BTCUSD_220624_klines.csv",
+      "bytes": 156471,
+      "sha256": "34f05c0d72d1c628473ae6e811933e8266b5f8ecc3f47d8bccccd0d5250e1fdd"
+    },
+    {
+      "path": "inverse_data/BTCUSD_220624_markPriceKlines.csv",
+      "bytes": 195624,
+      "sha256": "08bb325e583018c3aba5db9f67c6935c741faedb4f6157ae4fbbda9bf3a83308"
+    },
+    {
+      "path": "inverse_data/BTCUSD_220930_klines.csv",
+      "bytes": 168969,
+      "sha256": "efa4e5de07e000ea112368177df350b1ae8b5991d2ac6b975ba24fa7a795ac61"
+    },
+    {
+      "path": "inverse_data/BTCUSD_220930_markPriceKlines.csv",
+      "bytes": 197694,
+      "sha256": "eab9b297cdc33cddcd750f8dc9a031310953eb65059134b4fe5cfa03e281ad4c"
+    },
+    {
+      "path": "inverse_data/BTCUSD_221230_klines.csv",
+      "bytes": 165724,
+      "sha256": "fac6be9c9b3bbeaef079eeee6dfca72b33870ad4b2750e5b1e2c3ae0a861fed2"
+    },
+    {
+      "path": "inverse_data/BTCUSD_221230_markPriceKlines.csv",
+      "bytes": 197785,
+      "sha256": "2864a71c44b04555afb2b807d10524c055ab47a81705700da8323f106227c320"
+    },
+    {
+      "path": "inverse_data/BTCUSD_230331_klines.csv",
+      "bytes": 164265,
+      "sha256": "6b6b1253e15385b890c5746c34ffe04b96eee2dc16f1a194d6b70e859da7d6f1"
+    },
+    {
+      "path": "inverse_data/BTCUSD_230331_markPriceKlines.csv",
+      "bytes": 193376,
+      "sha256": "bcc235a2ccfef97c1451b6893c773d1b5c1241a9c7abf809a819b113fe90df51"
+    },
+    {
+      "path": "inverse_data/BTCUSD_230630_klines.csv",
+      "bytes": 165229,
+      "sha256": "7bf90d407a70716ec1f4d7316812fa8dc4265c974bae232b4733ed3d1801256c"
+    },
+    {
+      "path": "inverse_data/BTCUSD_230630_markPriceKlines.csv",
+      "bytes": 195626,
+      "sha256": "3221004291f023b06f1550b78a07edfd9aa32e3454788e9f88fb1cf96ab25370"
+    },
+    {
+      "path": "inverse_data/BTCUSD_230929_klines.csv",
+      "bytes": 166123,
+      "sha256": "131ef8576fecd9499b544dab2345ad90c1b7be645ad8ef65506947b3b25ef6da"
+    },
+    {
+      "path": "inverse_data/BTCUSD_230929_markPriceKlines.csv",
+      "bytes": 197805,
+      "sha256": "75bf73d4c628ea5404c3679eb5e00c8947ef2c73f1457e8cd4071ebafac578b3"
+    },
+    {
+      "path": "inverse_data/BTCUSD_231229_klines.csv",
+      "bytes": 165774,
+      "sha256": "f70feb0200993b74e69966c8cb28f91302dfc21d646896d9ff3037322d992399"
+    },
+    {
+      "path": "inverse_data/BTCUSD_231229_markPriceKlines.csv",
+      "bytes": 197773,
+      "sha256": "870b389bdb47796cab8bf4a430eb5e4ed4262c66b96018cb144dca65776c0693"
+    },
+    {
+      "path": "inverse_data/BTCUSD_240329_klines.csv",
+      "bytes": 161066,
+      "sha256": "81cbaebfb821979adaf4248083642bb4bebe1d407da0f96f7b5bd3f3c9cf406a"
+    },
+    {
+      "path": "inverse_data/BTCUSD_240329_markPriceKlines.csv",
+      "bytes": 195682,
+      "sha256": "4a88ba7d48a3e5c89091ce8688bbfd9ddc12d1263f153ec3b7e1624b56ad3dbe"
+    },
+    {
+      "path": "inverse_data/BTCUSD_240628_klines.csv",
+      "bytes": 161004,
+      "sha256": "a78d92732ab80dafcda43db954fd70a5a4d2e7f1fa9a4e3bd07ffd394da0a2de"
+    },
+    {
+      "path": "inverse_data/BTCUSD_240628_markPriceKlines.csv",
+      "bytes": 195472,
+      "sha256": "d7df9a787ead9fb84f1bfbe40b0273ab07409a69c61b7486db2ec0e4882f1728"
+    },
+    {
+      "path": "inverse_data/BTCUSD_240927_klines.csv",
+      "bytes": 159607,
+      "sha256": "956e554522c3ad649eecd2b91c9529644baa1da6b93298599ca4546e87c92319"
+    },
+    {
+      "path": "inverse_data/BTCUSD_240927_markPriceKlines.csv",
+      "bytes": 197851,
+      "sha256": "7e5b96e23c85489639b9e2e2369af510d140064f83d80dfbc5630563269a225d"
+    },
+    {
+      "path": "inverse_data/BTCUSD_241227_klines.csv",
+      "bytes": 159701,
+      "sha256": "6592f8e81215028d1b8ec7378301714649e2b7c47af94b4950bfda67c67cbbe4"
+    },
+    {
+      "path": "inverse_data/BTCUSD_241227_markPriceKlines.csv",
+      "bytes": 199086,
+      "sha256": "c7d6f292636bc6ee0d9b929cc95b0b20d33bf1fd8a658dea4df7133e5f2359be"
+    },
+    {
+      "path": "inverse_data/BTCUSD_250328_klines.csv",
+      "bytes": 158803,
+      "sha256": "2a6e0b2af18095071f9c521e20729fafdf498621fdc6f593a5f95251abe7895c"
+    },
+    {
+      "path": "inverse_data/BTCUSD_250328_markPriceKlines.csv",
+      "bytes": 195536,
+      "sha256": "29a5af675ee2fd6c17a3c1c00bfe49ce201b87198563ac89cc9820d7f30306fd"
+    },
+    {
+      "path": "inverse_data/BTCUSD_250627_klines.csv",
+      "bytes": 162911,
+      "sha256": "7015ef68b413b59fba74fac6e7e114d3ff038d3366b48742cdbb63032e274e4d"
+    },
+    {
+      "path": "inverse_data/BTCUSD_250627_markPriceKlines.csv",
+      "bytes": 200718,
+      "sha256": "6f56e0d708c66de2e6d4c0dcb29bb37a3d25cb055171d0d4815043c96ee969d1"
+    },
+    {
+      "path": "inverse_data/BTCUSD_250926_klines.csv",
+      "bytes": 165860,
+      "sha256": "00754d6f18986345043411f18a89260e0f8967dfafa7fc3e426dfed3f1672601"
+    },
+    {
+      "path": "inverse_data/BTCUSD_250926_markPriceKlines.csv",
+      "bytes": 206454,
+      "sha256": "5ff96bb848289ece570a5652c64d8167ba32b50e026146ef36ae5df37cd905f7"
+    },
+    {
+      "path": "inverse_data/BTCUSD_251226_klines.csv",
+      "bytes": 159514,
+      "sha256": "c6d967f1b444b56376071c10a473c38622cb9c0b4915780419e0e3188398834f"
+    },
+    {
+      "path": "inverse_data/BTCUSD_251226_markPriceKlines.csv",
+      "bytes": 202027,
+      "sha256": "ed7a547f60672a4c88edcc81eddcbe601b469754d1fa90ad83c4b63b75ebc543"
+    },
+    {
+      "path": "inverse_data/BTCUSD_260327_klines.csv",
+      "bytes": 152640,
+      "sha256": "2f61a9fba1938ed32665997da9d1fd2cbbf00aabae468bbbebd5236c7f0789db"
+    },
+    {
+      "path": "inverse_data/BTCUSD_260327_markPriceKlines.csv",
+      "bytes": 193539,
+      "sha256": "a9d30a9d4110eb2f07ecdf6365a164e4147c811c5346b8bf6419ed637603bcb0"
+    },
+    {
+      "path": "inverse_data/BTCUSD_260626_klines.csv",
+      "bytes": 154175,
+      "sha256": "017be131bb0f17d2faeeb16f5400b720e955bff8cfedee437156a4138f1f3ea8"
+    },
+    {
+      "path": "inverse_data/BTCUSD_260626_markPriceKlines.csv",
+      "bytes": 193804,
+      "sha256": "7cb38c78bd122819e72ad9e97b8de44993108901f76b11f8368a6092ce7cc6b0"
+    },
+    {
+      "path": "inverse_data/ETHUSD_210326_klines.csv",
+      "bytes": 159959,
+      "sha256": "23ba13e2576be4a7b95a87d04ca10830937b6c42ea36fd2a163362e9c07fabfe"
+    },
+    {
+      "path": "inverse_data/ETHUSD_210326_markPriceKlines.csv",
+      "bytes": 184639,
+      "sha256": "ec590eb98812890b5278336d8c085f2afb12321931c9475cd9b93cd5c5886e57"
+    },
+    {
+      "path": "inverse_data/ETHUSD_210625_klines.csv",
+      "bytes": 163196,
+      "sha256": "203a7578b00216e21da2216f189473cc054b00b079fb7f869f3a223a42d6f949"
+    },
+    {
+      "path": "inverse_data/ETHUSD_210625_markPriceKlines.csv",
+      "bytes": 186956,
+      "sha256": "a02a8de878ea04bb1be2ade962bbb38a16ac499a374a812a9539784b6bccf358"
+    },
+    {
+      "path": "inverse_data/ETHUSD_210924_klines.csv",
+      "bytes": 161926,
+      "sha256": "9a8e325165eb8e94b653593fa1f7d136fbe15c11db4b272d6c3d74e073a3234b"
+    },
+    {
+      "path": "inverse_data/ETHUSD_210924_markPriceKlines.csv",
+      "bytes": 189060,
+      "sha256": "fa132828ceb0e10de51cb54c519d8a56b899b357707d2a3440b89372995b1f9d"
+    },
+    {
+      "path": "inverse_data/ETHUSD_211231_klines.csv",
+      "bytes": 173904,
+      "sha256": "dd09099e231e81708d0e5e6091599e50815e973b1477aeba25184b2a1bffaa26"
+    },
+    {
+      "path": "inverse_data/ETHUSD_211231_markPriceKlines.csv",
+      "bytes": 189015,
+      "sha256": "03e5a1bb0172d7ad5c868f5bdc844752398dd4e4ffb46a7253c3e2e01b35e5a6"
+    },
+    {
+      "path": "inverse_data/ETHUSD_220325_klines.csv",
+      "bytes": 157610,
+      "sha256": "b26b49e49280ae797a740aa422a08285f6b98f7719dd9a992499860353b9d164"
+    },
+    {
+      "path": "inverse_data/ETHUSD_220325_markPriceKlines.csv",
+      "bytes": 184924,
+      "sha256": "f59e52faa04c1facbb4063c2c9a71855b6f3e41d42b3b003b9ecccc51ee56128"
+    },
+    {
+      "path": "inverse_data/ETHUSD_220624_klines.csv",
+      "bytes": 159274,
+      "sha256": "4ef23fae5104ceab388f5010bf927721026dcd015fcba10a176d7feae3ab979e"
+    },
+    {
+      "path": "inverse_data/ETHUSD_220624_markPriceKlines.csv",
+      "bytes": 186286,
+      "sha256": "92c4cf1a1670dbfedf7a55e4b05c49c9ac1e8e547034e09fa4da89ad4bab7393"
+    },
+    {
+      "path": "inverse_data/ETHUSD_220930_klines.csv",
+      "bytes": 172341,
+      "sha256": "8ba0e03d7324833a7e1d976dbc2148a2ac74ff6dcdb2f26e44290025724ea553"
+    },
+    {
+      "path": "inverse_data/ETHUSD_220930_markPriceKlines.csv",
+      "bytes": 188958,
+      "sha256": "8db760f996569e3d98072b631b6a6dfb3f9f0d0b109bcf3e6272e98ec6663ecc"
+    },
+    {
+      "path": "inverse_data/ETHUSD_221230_klines.csv",
+      "bytes": 169446,
+      "sha256": "76e6936847ece75ec5a3357811cc154c92ad36bb4d86caf45e762b610084b65e"
+    },
+    {
+      "path": "inverse_data/ETHUSD_221230_markPriceKlines.csv",
+      "bytes": 188963,
+      "sha256": "4cd6f184c2a27ad7e6ebf0e8ad69d4e37410fe2e94e636f0776cd8d626635398"
+    },
+    {
+      "path": "inverse_data/ETHUSD_230331_klines.csv",
+      "bytes": 167590,
+      "sha256": "215365e5629507b4c1ba59c82e6a3d5d1ed2614eedfcf2dd2695958004b01f1a"
+    },
+    {
+      "path": "inverse_data/ETHUSD_230331_markPriceKlines.csv",
+      "bytes": 184794,
+      "sha256": "00ab63150f5e549b8e456297d5a95b7d8ec6bf29b429b7fecd7535ba7e0beccf"
+    },
+    {
+      "path": "inverse_data/ETHUSD_230630_klines.csv",
+      "bytes": 167835,
+      "sha256": "bd3fe6f5e7c87bf4e335cefa81666e342e1e48eb60d2f6259b55d1560df7f472"
+    },
+    {
+      "path": "inverse_data/ETHUSD_230630_markPriceKlines.csv",
+      "bytes": 186918,
+      "sha256": "34a88285147fe13c8923a1b1c60b75c22d4cb1a5d39876104d786894050e6b4b"
+    },
+    {
+      "path": "inverse_data/ETHUSD_230929_klines.csv",
+      "bytes": 168895,
+      "sha256": "bf45e69ff8668a3baae11d5ed2860e0ee1c56902d40f5b1499ff9b512d99c28f"
+    },
+    {
+      "path": "inverse_data/ETHUSD_230929_markPriceKlines.csv",
+      "bytes": 188862,
+      "sha256": "8d6ba722e9db9e8947c9f922fd9595781e33fc51b6ce3b60ccd1d8ea0141ff54"
+    },
+    {
+      "path": "inverse_data/ETHUSD_231229_klines.csv",
+      "bytes": 169431,
+      "sha256": "35b8455b5efbd33c528436c4b75dd240532f69cc662ea22a1b53c6731afb6e37"
+    },
+    {
+      "path": "inverse_data/ETHUSD_231229_markPriceKlines.csv",
+      "bytes": 189033,
+      "sha256": "f2b170a2f9ce8081f0bc06fa94548bc2e1e79d408570581c834ca725b9875170"
+    },
+    {
+      "path": "inverse_data/ETHUSD_240329_klines.csv",
+      "bytes": 163952,
+      "sha256": "927eb7d1bf1ddbc65131b9139212606473043638c85e13c1c718baa9ca738233"
+    },
+    {
+      "path": "inverse_data/ETHUSD_240329_markPriceKlines.csv",
+      "bytes": 186682,
+      "sha256": "fa92a17aa8022c1af6375c94b78ce73270ab7854ea3df73e3ccc9a656d69b582"
+    },
+    {
+      "path": "inverse_data/ETHUSD_240628_klines.csv",
+      "bytes": 163332,
+      "sha256": "6ef7c2f7a2e0a4334d865159d4848046be2eb3dc170b696a2463f0ec756ceadc"
+    },
+    {
+      "path": "inverse_data/ETHUSD_240628_markPriceKlines.csv",
+      "bytes": 186925,
+      "sha256": "cd9434778fef250298730d499b33fc3af9c82367d6d3197f06e029d33a652295"
+    },
+    {
+      "path": "inverse_data/ETHUSD_240927_klines.csv",
+      "bytes": 162293,
+      "sha256": "0dafc19f9795f37ebc17d7795b0ff12222327773c167207154aa4e66a59f9e11"
+    },
+    {
+      "path": "inverse_data/ETHUSD_240927_markPriceKlines.csv",
+      "bytes": 189031,
+      "sha256": "399737850fba384840dbd0c358b4b99146cddfffc01290a20eb2f93d78af9688"
+    },
+    {
+      "path": "inverse_data/ETHUSD_241227_klines.csv",
+      "bytes": 160542,
+      "sha256": "c534c771be5f2c3f67c566348ac6f3dd18a249b18367eab9527ae0f0483cfcb2"
+    },
+    {
+      "path": "inverse_data/ETHUSD_241227_markPriceKlines.csv",
+      "bytes": 189033,
+      "sha256": "7703c61adb3a6af35fc4539373f0c19906c576ebfc81f3582cec81f5e4d7565f"
+    },
+    {
+      "path": "inverse_data/ETHUSD_250328_klines.csv",
+      "bytes": 158306,
+      "sha256": "c2f772cc77f216c239ad1cd068a5be40b192d3300781b8510b1c6f01e9df82c8"
+    },
+    {
+      "path": "inverse_data/ETHUSD_250328_markPriceKlines.csv",
+      "bytes": 184898,
+      "sha256": "c8dbe428ac44604e4c2cc92e9411bbb9de1ad7e94dd9d711e3931b7cc99eb11e"
+    },
+    {
+      "path": "inverse_data/ETHUSD_250627_klines.csv",
+      "bytes": 160691,
+      "sha256": "cb39421ceece55260e8833035aea8db533eecfe28d08895f0f685906c5050e6e"
+    },
+    {
+      "path": "inverse_data/ETHUSD_250627_markPriceKlines.csv",
+      "bytes": 187017,
+      "sha256": "18926ee66604d90b1357008e37a613c8980b6c33dc6cf6408d4e8b8dbde4abe7"
+    },
+    {
+      "path": "inverse_data/ETHUSD_250926_klines.csv",
+      "bytes": 160487,
+      "sha256": "91ecff3596a9c5f182274a4a0f8c878d0ac150c2e4e481018e9637fbded49c71"
+    },
+    {
+      "path": "inverse_data/ETHUSD_250926_markPriceKlines.csv",
+      "bytes": 189042,
+      "sha256": "bda4817dee8a8ae44ac4365dc23fdd610dcb24212249748bdef0848f8c151237"
+    },
+    {
+      "path": "inverse_data/ETHUSD_251226_klines.csv",
+      "bytes": 158085,
+      "sha256": "727a31229abc4f3ef57e522fed1ee7e3f9bc8e719c1d2eb6e2a0b42c8d04a051"
+    },
+    {
+      "path": "inverse_data/ETHUSD_251226_markPriceKlines.csv",
+      "bytes": 188996,
+      "sha256": "26cf789d49a72654662ec0d7e0d60fc3d69d4b5498b20c110d2cc572c8495e1a"
+    },
+    {
+      "path": "inverse_data/ETHUSD_260327_klines.csv",
+      "bytes": 155168,
+      "sha256": "102bb40b910eafabe09d59038a1ab015d9ac9258376a480dfa15672bd5333e3f"
+    },
+    {
+      "path": "inverse_data/ETHUSD_260327_markPriceKlines.csv",
+      "bytes": 184878,
+      "sha256": "111b057936fd8af534a33328fe044e9129cd90172973458add55690782e24872"
+    },
+    {
+      "path": "inverse_data/ETHUSD_260626_klines.csv",
+      "bytes": 156250,
+      "sha256": "ef42339b80376d85fed3640f85f6c2b0872caeb25f72d72cb402b3d6d1fc2f58"
+    },
+    {
+      "path": "inverse_data/ETHUSD_260626_markPriceKlines.csv",
+      "bytes": 185140,
+      "sha256": "5d63a0a099fccd16a72b1334056c95b0d39fd718d6050e5b7c384b5f909a4a16"
+    },
+    {
+      "path": "inverse_data/contracts.json",
+      "bytes": 7196,
+      "sha256": "421e781cf8175f5421365d08c568b710446f08810ea066512537fa00e7b334a5"
+    },
+    {
+      "path": "inverse_data/daily_repair_manifest.json",
+      "bytes": 3738,
+      "sha256": "931d784695b5f11704801036c0f648840fd309289acd0f7e77f04b4d9e3d14bc"
+    },
+    {
+      "path": "inverse_data/manifest.json",
+      "bytes": 87419,
+      "sha256": "01bb2de6864c6296c6447db3e635a7f896855472aaee2341bc2fbd7b36939cd4"
+    }
+  ]
+}

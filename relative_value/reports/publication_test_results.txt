@@ -1,0 +1,5 @@
+Publication verification on 26 October 2026
+31 tests passed in 5.35s
+139 processed inputs matched snapshot hashes.
+All 13 original source-code identities matched.
+Full later-period funding replay matched every saved model/cost summary row.

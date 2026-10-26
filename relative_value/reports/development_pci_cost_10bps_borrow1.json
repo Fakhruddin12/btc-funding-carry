@@ -1,0 +1,25 @@
+{
+  "bootstrap": "circular blocks,20sessions,2000resamples,conditional on realised book returns",
+  "annual_excess_mean_95pct": [
+    -0.00051706706140664,
+    0.00013572053141810725
+  ],
+  "sharpe_95pct": [
+    -0.942830057854363,
+    0.34783118948682307
+  ],
+  "factor_regression": {
+    "n": 2517,
+    "annual_alpha": -0.00020420799124487186,
+    "alpha_hac20_t": -1.2001479860393902,
+    "coefficients": {
+      "const": -8.103491716066344e-07,
+      "Mkt-RF": 0.000338780256461812,
+      "SMB": 0.0002896412534764844,
+      "HML": 0.0006581201346475742,
+      "RMW": -5.937957846299723e-05,
+      "CMA": -0.0010053424193402082,
+      "MOM": -0.0001944715239750568
+    }
+  }
+}

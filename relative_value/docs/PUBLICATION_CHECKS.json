@@ -1,0 +1,20 @@
+{
+  "checked_utc": "2026-10-26T10:48:02.978149+00:00",
+  "tests_passed": 31,
+  "processed_inputs_verified": 139,
+  "ledgers_reconciled": 15,
+  "archive_parts_verified": 19,
+  "research_logic_changed_for_publication": false,
+  "inverse_source_sha256": "643273079be5638746f69cc43f7eec193aea17c30ec3718157cd52525e6116ed",
+  "carry_source_sha256": "3523e11aadf3568d344d99f1fce65f8c319fade1685f40cc6cece0bfe270b60c",
+  "dated_futures_later_period": {
+    "start": "2023-01-01",
+    "end": "2026-06-26",
+    "net_total_return": 0.193538534650854,
+    "cash_proxy_return": 0.167857740965756,
+    "always_on_return": 0.1680657305077058,
+    "net_cagr": 0.052036660283131,
+    "cost_reduction_fraction": 0.6675871509607598
+  },
+  "interpretation": "Retrospective research simulation. Total returns include cash interest. Assumed costs and omitted execution/counterparty risks are documented in README.md."
+}

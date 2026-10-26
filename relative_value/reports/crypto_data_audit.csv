@@ -1,0 +1,9 @@
+symbol,kind,rows,missing_hours
+BTCUSDT,spot,58440,0
+BTCUSDT,perp,58440,0
+BTCUSDT,mark,58440,0
+BTCUSDT,spot_flagged_valuation_proxy,31,0
+ETHUSDT,spot,58440,0
+ETHUSDT,perp,58440,0
+ETHUSDT,mark,58440,0
+ETHUSDT,spot_flagged_valuation_proxy,31,0

@@ -1,0 +1,82 @@
+[
+  [
+    "SPY",
+    "IVV",
+    "S&P 500 exposure"
+  ],
+  [
+    "VTI",
+    "ITOT",
+    "US broad equity"
+  ],
+  [
+    "IWM",
+    "IJR",
+    "US small-cap equity"
+  ],
+  [
+    "XLB",
+    "VAW",
+    "materials"
+  ],
+  [
+    "XLE",
+    "VDE",
+    "energy"
+  ],
+  [
+    "XLF",
+    "VFH",
+    "financials"
+  ],
+  [
+    "XLI",
+    "VIS",
+    "industrials"
+  ],
+  [
+    "XLK",
+    "VGT",
+    "technology"
+  ],
+  [
+    "XLP",
+    "VDC",
+    "consumer staples"
+  ],
+  [
+    "XLU",
+    "VPU",
+    "utilities"
+  ],
+  [
+    "XLV",
+    "VHT",
+    "healthcare"
+  ],
+  [
+    "XLY",
+    "VCR",
+    "consumer discretionary"
+  ],
+  [
+    "IYR",
+    "VNQ",
+    "US real estate"
+  ],
+  [
+    "GLD",
+    "IAU",
+    "gold"
+  ],
+  [
+    "TLT",
+    "VGLT",
+    "long US Treasuries"
+  ],
+  [
+    "IEF",
+    "VGIT",
+    "intermediate US Treasuries"
+  ]
+]

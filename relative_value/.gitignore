@@ -1,0 +1,13 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+*_hourly.csv
+*.building.csv
+data/*.csv
+crypto_data/*.csv
+inverse_data/*.csv
+crypto_data/raw/
+inverse_data/raw/
+deliverables/*.zip
+research-inputs.zip
+*.building.zip

@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-10-25T04:23:28.906713+00:00",
+  "selected_model": null,
+  "reason": "All three ETF candidates have negative 2019-2021 net excess Sharpe at the base cost scenario. Do not open locked strategy evaluation merely to search for a favourable later period.",
+  "validation": [
+    {
+      "model": "zscore",
+      "excess_sharpe": -4.301037698077763
+    },
+    {
+      "model": "ou_cost",
+      "excess_sharpe": -0.7618045155655938
+    },
+    {
+      "model": "pci_cost",
+      "excess_sharpe": -0.6871630522152374
+    }
+  ],
+  "code_sha256": "faf4468112703eb10c2e2021eb99b9be34bfbfd2504e73a537cb8e3528f8484c",
+  "locked_evaluation_executed": false
+}
