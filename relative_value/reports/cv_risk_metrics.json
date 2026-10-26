@@ -1,0 +1,11 @@
+{
+  "evaluation_start": "2023-01-01 00:00:00+00:00",
+  "evaluation_end": "2026-06-26 07:00:00+00:00",
+  "annualisation_days": 365,
+  "annualised_cash_excess_sharpe": 0.9295030366711445,
+  "maximum_drawdown_hourly_nav": -0.006798096398072162,
+  "maximum_drawdown_daily_nav": -0.0037327571490712863,
+  "initial_capital_full_2021_simulation_usd": 100000,
+  "nav_at_start_of_2023_evaluation_usd": 108787.58370103844,
+  "interpretation": "Retrospective net-return backtest with cash interest and assumed costs. Test capital is not a proven capacity limit."
+}

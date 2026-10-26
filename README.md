@@ -8,6 +8,12 @@ I tested whether buying spot BTC/ETH and shorting futures can earn enough to cov
 
 ![Cumulative returns and drawdowns](relative_value/deliverables/cumulative_returns.png)
 
+## Risk metrics used in the CV
+
+For January 2023-June 2026, the dated-futures strategy has an **annualised cash-excess Sharpe of 0.93** and **0.68% maximum drawdown measured on hourly NAV**. Daily-close maximum drawdown is 0.37%. These are evaluation-period simulation metrics, including assumed trading costs and cash interest.
+
+[Definitions, capital and limitations](relative_value/docs/CV_RISK_METRICS.md) | [Saved risk metrics](relative_value/reports/cv_risk_metrics.json) | [Calculation script](relative_value/cv_metrics.py)
+
 ## What the project contains
 
 - An inverse-contract hedge with coin fees, integer contract sizes and retained coin dust.
